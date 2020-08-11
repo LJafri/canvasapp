@@ -11,11 +11,11 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
+app.get('/', function(res, req) {
     res.render('hello');
 });
 
-app.post('/', (res, req) => {
+app.post('/', function(res, req) {
     let bodyArray = req.body.signed_request.split('.');
     let consumerSecret = bodyArray[0];
     let encoded_envelope = bodyArray[1];
