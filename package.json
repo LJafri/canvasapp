@@ -1,0 +1,37 @@
+{
+  "name": "nodecanvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJafri/canvasapp.git"
+  },
+  "keywords": [
+    "salesforce",
+    "node",
+    "canvas"
+  ],
+  "author": "LJafri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LJafri/canvasapp/issues"
+  },
+  "dependencies": {
+    "base64-url": "^2.3.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.6",
+    "ejs": "^2.5.5",
+    "express": "^4.17.1",
+    "http": "~0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "homepage": "https://github.com/LJafri/canvasapp#readme"
+}
